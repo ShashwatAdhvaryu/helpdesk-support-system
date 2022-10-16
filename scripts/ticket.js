@@ -208,10 +208,8 @@ function ticketSubmit(){
 }
 
 function resetNewTicketDiv(){
-
     let newOuterDiv = document.getElementById("outerDiv");
     newOuterDiv.style.color = "";
     newOuterDiv.innerHTML = "";
-
 }
 
