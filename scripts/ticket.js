@@ -6,9 +6,10 @@ function newTicket(){
     // resetNewTicketDiv();
     let outerDiv= document.getElementById("outerDiv");
     outerDiv.className='container';
+    outerDiv.style = "display:flex; justify-content:center; width:50%;"
     let div = document.createElement('div');
     div.className = 'jumbotron';
-    div.style ="background-color:#f5f3ef";
+    div.style ="background-color:#172740; box-shadow: 15px 15px 15px 3px rgba(0, 0, 0, 0.185); width:100%";
     let form = document.createElement('form');
     form.id ='newTicketForm';
     form.innerHTML ='<h1>ADD NEW TICKET</h1>';
@@ -151,7 +152,7 @@ function newTicket(){
 
     let divSubmit = document.createElement('div');
     divSubmit.type = 'button';
-    divSubmit.className ='submit-btn';
+    divSubmit.className ='submit-btn btn btn-success';
     divSubmit.innerHTML='Submit';
     divSubmit.addEventListener("click",ticketSubmit);
 

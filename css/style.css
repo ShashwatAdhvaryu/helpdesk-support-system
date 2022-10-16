@@ -17,21 +17,8 @@ h1{
     font-size:20px;
 }
 .submit-btn {
-    display: flex;
     width: 80%;
-    background-color: #9bd6b0;
-    color: black;
-    height: 50px;
-    border-radius:20px;
-    align-items: center;
-    justify-content: center;
 }
-
-.submit-btn:hover {
-    background-color: #00ab66;
-    color: white;
-}
-
 .bg{
     background: url(../images/bg.jpg);
     background-repeat: no-repeat;
@@ -54,13 +41,17 @@ footer{
     align-items: center;
 }
 
-.i{
+.i,.form-control{
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.389);
     color: white;
 }
 
-.i:focus{
+.i:focus,.form-control:focus{
+    background: transparent;
+    color: white;
+}
+.jumbotron{
     background: transparent;
     color: white;
 }
