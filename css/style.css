@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+}
+.fa-github {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.fa-github:hover {
+    color: grey;
+}
