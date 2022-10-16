@@ -9,3 +9,26 @@ h1{
 .fa-github:hover {
     color: grey;
 }
+.logo {
+    width: 60px;
+    background:transparent;
+}
+.table{
+    font-size:20px;
+}
+.submit-btn {
+    display: flex;
+    width: 80%;
+    background-color: #9bd6b0;
+    color: black;
+    height: 50px;
+    border-radius:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-btn:hover {
+    background-color: #00ab66;
+    color: white;
+
+}
