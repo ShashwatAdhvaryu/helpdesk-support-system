@@ -47,3 +47,20 @@ footer{
 .txt{
     color: white;
 }
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i{
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.389);
+    color: white;
+}
+
+.i:focus{
+    background: transparent;
+    color: white;
+}

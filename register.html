@@ -22,42 +22,37 @@
         <div class="container">
             <a href="index.html"><img class="logo" src="images/happy_logo.png" alt="Happy Help Desk"/></a>
 
-            <div class="row">
-                <div class="col-sm-6">
-
-
-                </div>
-                <div class="jumbotron col-sm-6" style="background-color:lavender;">
+            <div class="row cont">
+            
+                <div class="jumbotron col-sm-6" style="background-color:#172740; box-shadow: 15px 15px 15px 3px rgba(0, 0, 0, 0.185);">
                     <div>
-                        <h1>Register</h1>
+                        <h1 class="txt">Register</h1>
                     </div>
 
                         <form id="registrationForm" autocomplete="on">
                             <div class="form-group">
-                                <label for="usrRegister">Full Name:</label>
-                                <input type="text" class="form-control" id="usrRegister"  autocomplete="name">
+                                <label for="usrRegister" class="txt">Full Name:</label>
+                                <input type="text" class="form-control i" id="usrRegister"  autocomplete="name">
                             </div>
 
                             <div class="form-group">
-                                <label for="usrNameRegister">Username:</label>
-                                <input type="text" class="form-control" id="usrNameRegister" autocomplete="name">
+                                <label for="usrNameRegister" class="txt">Username:</label>
+                                <input type="text" class="form-control i" id="usrNameRegister" autocomplete="name">
                             </div>
                             <div class="form-group">
-                                <label for="email">Email address:</label>
-                                <input type="email" class="form-control" id="email"  autocomplete="email">
+                                <label for="email" class="txt">Email address:</label>
+                                <input type="email" class="form-control i" id="email"  autocomplete="email">
                             </div>
                             <div class="form-group">
-                                <label for="pwdRegister">Password:</label>
-                                <input type="password" class="form-control" id="pwdRegister">
+                                <label for="pwdRegister" class="txt">Password:</label>
+                                <input type="password" class="form-control i" id="pwdRegister">
                             </div>
                             <div>
-                                <button type="button" class="btn btn-danger" onclick="register()">Register</button>
+                                <button type="button" class="btn btn-success txt" onclick="register()">Register</button>
                             </div><br>
                             <div id="alert">
-
                             </div>
                     </form>
-
                 </div>
             </div>
             <footer class="text-center card-footer fixed-bottom foot">
